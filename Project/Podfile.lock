@@ -1,0 +1,125 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - EasyMapping (0.15.3):
+    - EasyMapping/Core (= 0.15.3)
+  - EasyMapping/Core (0.15.3)
+  - Fabric (1.9.0)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MBProgressHUD (1.1.0)
+  - MTBBarcodeScanner (5.0.11)
+  - Nimbus/Collections (1.3.0):
+    - Nimbus/Core
+  - Nimbus/Core (1.3.0)
+  - Nimbus/Models (1.3.0):
+    - Nimbus/Core
+  - RamblerSegues (1.1.2):
+    - RamblerSegues/Core (= 1.1.2)
+    - RamblerSegues/CrossStoryboardSegue (= 1.1.2)
+    - RamblerSegues/EmbedSegue (= 1.1.2)
+  - RamblerSegues/Core (1.1.2)
+  - RamblerSegues/CrossStoryboardSegue (1.1.2)
+  - RamblerSegues/EmbedSegue (1.1.2)
+  - RamblerTyphoonUtils/AssemblyCollector (1.5.0)
+  - SDWebImage (5.0.2):
+    - SDWebImage/Core (= 5.0.2)
+  - SDWebImage/Core (5.0.2)
+  - Typhoon (4.0.8):
+    - Typhoon/DeallocNotifier (= 4.0.8)
+    - Typhoon/IntrospectionUtils (= 4.0.8)
+    - Typhoon/no-arc (= 4.0.8)
+  - Typhoon/DeallocNotifier (4.0.8)
+  - Typhoon/IntrospectionUtils (4.0.8)
+  - Typhoon/no-arc (4.0.8):
+    - Typhoon/IntrospectionUtils
+  - ViperMcFlurry (1.5.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Crashlytics
+  - EasyMapping (= 0.15.3)
+  - Fabric
+  - GoogleMaps
+  - libextobjc/EXTScope (from `https://github.com/jspahrsummers/libextobjc.git`)
+  - MagicalRecord (~> 2.3)
+  - MBProgressHUD
+  - MTBBarcodeScanner
+  - Nimbus/Collections (~> 1.3.0)
+  - Nimbus/Models (~> 1.3.0)
+  - RamblerSegues (~> 1.1.2)
+  - RamblerTyphoonUtils/AssemblyCollector (~> 1.5)
+  - SDWebImage (~> 5.0.0-beta2)
+  - Typhoon (~> 4.0.7)
+  - ViperMcFlurry (~> 1.5.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Crashlytics
+    - EasyMapping
+    - Fabric
+    - GoogleMaps
+    - MagicalRecord
+    - MBProgressHUD
+    - MTBBarcodeScanner
+    - Nimbus
+    - RamblerSegues
+    - RamblerTyphoonUtils
+    - SDWebImage
+    - Typhoon
+    - ViperMcFlurry
+
+EXTERNAL SOURCES:
+  libextobjc:
+    :git: https://github.com/jspahrsummers/libextobjc.git
+
+CHECKOUT OPTIONS:
+  libextobjc:
+    :commit: bdec77056a38a52bc8f30a19cec52d66a70e7bf6
+    :git: https://github.com/jspahrsummers/libextobjc.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  EasyMapping: 5baf5a9a814538fdac4859cf56270ae761dd904a
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  Nimbus: e7f33bc6d6cb4fe5ea0aee0c7e0883696123422c
+  RamblerSegues: 697ae59f2fbaefac805a57fc4e61fb73ba1fd5de
+  RamblerTyphoonUtils: 08a6b5592e045a490cd4550aa9ea4a581308d482
+  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  Typhoon: f8901ef1ad0e2fa520cda0f668492dd33353f7dc
+  ViperMcFlurry: 701bc3ad8d188b1f1e157ec0ddf4e77184de88b5
+
+PODFILE CHECKSUM: e4987dd135fd6691599d443d025692abb1e4a5e8
+
+COCOAPODS: 1.5.3

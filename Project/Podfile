@@ -1,0 +1,52 @@
+source 'https://github.com/cocoapods/Specs.git'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+use_frameworks!
+
+platform :ios, '9.0'
+
+def appPods
+    # Системные / вспомогательные
+	pod 'libextobjc/EXTScope', :git => 'https://github.com/jspahrsummers/libextobjc.git'
+
+    # DI
+    pod 'Typhoon', '~> 4.0.7'
+    pod 'RamblerTyphoonUtils/AssemblyCollector', '~> 1.5'
+
+    # Работа с сетью
+    pod 'SDWebImage', '~> 5.0.0-beta2'
+
+    # Маппинг/парсинг
+    pod 'EasyMapping', '= 0.15.3'
+		
+	#Crash
+	pod 'Fabric'
+	pod 'Crashlytics'
+
+	# Network
+	pod 'AFNetworking'
+		
+    # UI
+    pod 'ViperMcFlurry', '~> 1.5.2'
+    pod 'RamblerSegues', '~> 1.1.2'
+
+    pod 'Nimbus/Models', '~> 1.3.0'
+	pod 'Nimbus/Collections', '~> 1.3.0'
+
+	pod 'MBProgressHUD'
+		
+    # Core Data
+    pod 'MagicalRecord', '~> 2.3'
+    
+    # Map
+    pod 'GoogleMaps'
+		
+    # Bar code
+	pod 'MTBBarcodeScanner'
+
+end
+
+target 'Example' do
+    appPods
+end
